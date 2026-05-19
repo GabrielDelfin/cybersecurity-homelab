@@ -27,24 +27,25 @@ All labs run in an isolated virtual network.
 
 ```
 ┌─────────────────────────────────────────────┐
-│           VirtualBox Host-Only Network       │
-│              192.168.56.0/24                 │
-│                                              │
+│           VirtualBox Host-Only Network      │
+│              192.168.56.0/24                │
+│                                             │
 │  ┌───────────────┐     ┌───────────────┐    │
-│  │  Kali Linux   │────▶│  Windows 11   │    │
+│  │  Kali Linux   │───▶│  Windows 11   │    │
 │  │ 192.168.56.101│     │ 192.168.56.102│    │
 │  │  (Attacker)   │     │   (Victim)    │    │
 │  └───────────────┘     └───────────────┘    │
-│                               │              │
-│                        Sysmon + Splunk UF    │
-│                               │              │
-│                    ┌──────────▼──────────┐   │
-│                    │   Host Machine      │   │
-│                    │  Splunk Enterprise  │   │
-│                    │   (SIEM / SOC)      │   │
-│                    └─────────────────────┘   │
+│                               │             │
+│                        Sysmon + Splunk UF   │
+│                               │             │
+│                    ┌──────────▼──────────┐  │
+│                    │   Host Machine      │  │
+│                    │  Splunk Enterprise  │  │
+│                    │   (SIEM / SOC)      │  │
+│                    └─────────────────────┘  │
 └─────────────────────────────────────────────┘
 ```
 
 ## Connect
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://linkedin.com/in/luisgabriel-delfinpaulin)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-Profile-red?style=flat&logo=tryhackme)](https://tryhackme.com/p/luisgabrieldp)
