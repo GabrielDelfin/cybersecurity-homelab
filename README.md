@@ -1,4 +1,4 @@
-# Cybersecurity Home Lab Portfolio
+  # Cybersecurity Home Lab Portfolio
 
 ## About
 Self-taught security practitioner building practical skills through home lab simulations. Each lab covers a real-world attack scenario; from initial access to detection, investigation, and incident response.
@@ -25,6 +25,7 @@ Simulated attacks detected and investigated using Splunk + Sysmon, documented fo
 ## Lab Environment
 All labs run in an isolated virtual network.
 
+```
 ┌─────────────────────────────────────────────┐
 │           VirtualBox Host-Only Network       │
 │              192.168.56.0/24                 │
@@ -43,6 +44,7 @@ All labs run in an isolated virtual network.
 │                    │   (SIEM / SOC)      │   │
 │                    └─────────────────────┘   │
 └─────────────────────────────────────────────┘
+```
 
 ## Connect
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://linkedin.com/in/luisgabriel-delfinpaulin)
